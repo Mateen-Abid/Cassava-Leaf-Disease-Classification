@@ -3,7 +3,6 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
-.env
 
 # Local / large artifacts (regenerate with project scripts)
 artifacts/
@@ -18,4 +17,5 @@ data/raw/test_tfrecords/
 
 # IDE
 .idea/
-.vscode/
+config.bat
+node_modules
