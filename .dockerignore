@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.git/
+.cursor/
+data/raw/train_images/
+data/raw/test_images/
+data/raw/train_tfrecords/
+data/raw/test_tfrecords/
+artifacts/reports/augmentation_preview/
+artifacts/evaluation/
+ui/
+

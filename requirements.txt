@@ -1,0 +1,14 @@
+# Cassava Leaf Disease — assessment prototype
+# Docker / Linux / inference: pip install -r requirements.txt
+# Local training on AMD Radeon (Windows): install torch-directml AFTER this file
+#   pip install torch-directml
+# See README.md — DirectML bundles a matched torch/torchvision; do not mix with Docker blindly.
+
+fastapi>=0.100
+uvicorn[standard]>=0.22
+streamlit>=1.28
+pandas>=2.0
+torch>=2.4,<2.5
+torchvision>=0.19,<0.20
+pillow>=9.0
+python-multipart>=0.0.6

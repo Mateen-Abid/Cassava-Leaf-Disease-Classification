@@ -1,0 +1,98 @@
+{
+  "dataset_size": 21397,
+  "label_map": {
+    "0": "Cassava Bacterial Blight (CBB)",
+    "1": "Cassava Brown Streak Disease (CBSD)",
+    "2": "Cassava Green Mottle (CGM)",
+    "3": "Cassava Mosaic Disease (CMD)",
+    "4": "Healthy"
+  },
+  "full_distribution": {
+    "0": 1087,
+    "1": 2189,
+    "2": 2386,
+    "3": 13158,
+    "4": 2577
+  },
+  "split_distribution": {
+    "train": {
+      "0": 761,
+      "1": 1533,
+      "2": 1670,
+      "3": 9210,
+      "4": 1803
+    },
+    "val": {
+      "0": 163,
+      "1": 328,
+      "2": 358,
+      "3": 1974,
+      "4": 387
+    },
+    "test": {
+      "0": 163,
+      "1": 328,
+      "2": 358,
+      "3": 1974,
+      "4": 387
+    }
+  },
+  "class_weights": {
+    "0": 3.936136662286465,
+    "1": 1.9539465101108937,
+    "2": 1.7936526946107785,
+    "3": 0.3252334419109663,
+    "4": 1.6613422074320576
+  },
+  "image_resolution": {
+    "most_common": {
+      "width": 800,
+      "height": 600
+    },
+    "unique_resolution_count": 1
+  },
+  "quality_checks": {
+    "missing_files": 0,
+    "unreadable_images": 0,
+    "conflicting_exact_duplicates": 0
+  },
+  "preprocessing": {
+    "resize": [
+      224,
+      224
+    ],
+    "normalize_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "normalize_std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "augmentation": {
+    "horizontal_flip_probability": 0.5,
+    "vertical_flip_probability": 0.2,
+    "rotation_degrees": 15,
+    "brightness_factor_range": [
+      0.9,
+      1.1
+    ],
+    "contrast_factor_range": [
+      0.9,
+      1.1
+    ],
+    "color_factor_range": [
+      0.9,
+      1.1
+    ]
+  },
+  "split_config": {
+    "val_ratio": 0.15,
+    "test_ratio": 0.15,
+    "seed": 42
+  },
+  "preview_examples_saved": 5
+}

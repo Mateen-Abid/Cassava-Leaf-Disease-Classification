@@ -1,0 +1,7 @@
+{
+  "checkpoint_path": "artifacts/training/models/transfer_best.pt",
+  "label_map_path": "data/raw/label_num_to_disease_map.json",
+  "image_size": 224,
+  "force_cpu": true
+}
+

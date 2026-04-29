@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Local / large artifacts (regenerate with project scripts)
+artifacts/
+data/raw/train_images/
+data/raw/test_images/
+data/raw/*.zip
+
+# Original Kaggle bundles (large; obtain from dataset page)
+data/raw/**/*.tfrec
+data/raw/train_tfrecords/
+data/raw/test_tfrecords/
+
+# IDE
+.idea/
+.vscode/
